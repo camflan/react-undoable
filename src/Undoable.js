@@ -14,9 +14,9 @@ import { oneOfType, object, array, func, number } from 'prop-types'
 
 class Undoable extends React.Component {
     static propTypes = {
-        items: oneOfType([array, object]).required,
-        onRemove: func.required, // calling this function will remove the item from the parent
-        getItem: func.required, // this will retrieve the item from parent. We need this to save the data for restore
+        items: oneOfType([array, object]).isRequired,
+        onRemove: func.isRequired, // calling this function will remove the item from the parent
+        getItem: func.isRequired, // this will retrieve the item from parent. We need this to save the data for restore
         expirationMs: number, // how long does the user have to undo?
         render: func, // if you prefer to use render={} instead of children for the render prop
     }

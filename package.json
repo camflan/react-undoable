@@ -2,8 +2,8 @@
     "name": "react-undoable",
     "version": "1.0.0",
     "description":
-        "an easy-to-use logical component that provides undo functionality",
-    "keywords": ["react", "component", "render-prop", "undo"],
+        "a easy-to-use logical component that provides undo functionality",
+    "keywords": ["react", "undo", "render-props", "logical", "experiment"],
     "main": "src/index.js",
     "dependencies": {
         "react": "16.3.2",
