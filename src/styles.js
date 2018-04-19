@@ -21,6 +21,8 @@ let cartStyles = {
         margin: '0.5rem',
         padding: '1rem',
         maxWidth: 350,
+        borderRadius: 4,
+        border: '1px solid grey',
     },
     heading: {
         marginTop: 0,
@@ -31,10 +33,17 @@ let cartStyles = {
     list: {
         marginLeft: 0,
         paddingLeft: 0,
+        marginBottom: 0,
     },
     item: {
         listStyleType: 'none',
         margin: '0.5rem 0',
+    },
+    footer: {
+        borderTop: '1px solid grey',
+        paddingTop: '0.5rem',
+        marginBottom: 0,
+        paddingBottom: 0,
     },
     button: {
         float: 'right',

@@ -18,6 +18,8 @@ let Cart = ({ items, onRemove }) => (
                 </li>
             ))}
         </ul>
+
+        <h4 style={cartStyles.footer}>{`${items.length} items`}</h4>
     </div>
 )
 
